@@ -45,18 +45,25 @@ let numeros = [10, 20, 30, 40];
 Peça ao usuário para inserir vários números separados por vírgula. Depois, exiba os números ordenados de forma crescente no console.*/
 
 console.log("----------atividade01-----------");
+const imparpar = (num) => {
+  return num % 2 == 0 ? "O número é par!" : "O número e ímpar";
+};
+console.log(imparpar(10));
+console.log(imparpar(3));
+console.log(imparpar(2));
 
 console.log("-----------atividade02---------");
-console.log(numeros, "x 1 =", numeros * 1);
-console.log(numeros, "x 2 =", numeros * 2);
-console.log(numeros, "x 3 =", numeros * 3);
-console.log(numeros, "x 4 =", numeros * 4);
-console.log(numeros, "x 5 =", numeros * 5);
-console.log(numeros, "x 6 =", numeros * 6);
-console.log(numeros, "x 7 =", numeros * 7);
-console.log(numeros, "x 8 =", numeros * 8);
-console.log(numeros, "x 9 =", numeros * 9);
-console.log(numeros, "x 10 =", numeros * 10);
+var tabuada = 8;
+console.log(tabuada, "x 1 =", tabuada * 1);
+console.log(tabuada, "x 2 =", tabuada * 2);
+console.log(tabuada, "x 3 =", tabuada * 3);
+console.log(tabuada, "x 4 =", tabuada * 4);
+console.log(tabuada, "x 5 =", tabuada * 5);
+console.log(tabuada, "x 6 =", tabuada * 6);
+console.log(tabuada, "x 7 =", tabuada * 7);
+console.log(tabuada, "x 8 =", tabuada * 8);
+console.log(tabuada, "x 9 =", tabuada * 9);
+console.log(tabuada, "x 10 =", tabuada * 10);
 
 console.log("----------atividade03----------");
 console.log("Fatorial de 5! =", 5 * 4 * 3 * 2 * 1);
