@@ -58,10 +58,36 @@ var matriz = [
   [8, 4, 1],
   [3, 7, 8],
 ];
-console.log("matriz[", linha, "][", coluna
 for (let linha = 0; linha < matriz.length; linha++) {
   for (let coluna = 0; coluna < matriz[0].length; coluna++) {
-    console.log("Matriz [", linha, "][", coluna, "] =", matriz[linha][coluna]);
+    // console.log("Matriz[", linha, "][", coluna, "] =", matriz[linha][coluna]);
     console.log(`Matriz[${linha}][${coluna}] = ${matriz[linha][coluna]}`);
   }
 }
+
+//laço repetiçao - while / do while
+//while testa a condiçao antes de entrar no laço de repetiçao
+// se a condiçao for inicialmente falsa e o laço
+
+var t = 10;
+
+while (t >= 10) {
+  console.log("entrei no laço while...");
+  t = 0;
+}
+console.log("terminei");
+
+var i = 0;
+while (i <= 100) {
+  console.log(`Escrito de linha ${i}`);
+  i++;
+}
+
+// laço repetiçao while
+// while(condiçao){
+// fragmentos e codigo
+// fragmentos e codigo
+// fragmentos e codigo
+// fragmentos e codigo
+//contador++ | nesta parte o contador é a variavel de controle de acesso
+//}
